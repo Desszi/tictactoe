@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tictactoe</title>
     <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
 </head>
 <body>
     <table class= "ground">
     <tr>
-        <td data-value=" "></td>
-        <td data-value=" "></td>
-        <td data-value=" "></td>
+        <td data-value=" " onclick="myFunction()"></td>
+        <td data-value=" " onclick="myFunction()"></td>
+        <td data-value=" " onclick="myFunction()"></td>
     </tr>
     <tr>
         <td data-value=" "></td>
@@ -24,6 +25,9 @@
         <td data-value=" "></td>
     </tr>
     </table>
-<script src="tictactoe.js"></script>
+    <div>
+        <button onclick="NewGame()">Új játék!</button>
+
+    </div>
 </body>
 </html>
